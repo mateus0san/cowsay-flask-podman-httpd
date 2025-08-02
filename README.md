@@ -1,10 +1,10 @@
-##Option 1
+## Option 1
 ```bash
 podman build -t cowsay_hello https://github.com/mateus0san/cowsay-flask-podman-httpd.git
 podman run -d -p 9001:80 cowsay_hello
 ```
 
-##Option 2
+## Option 2
 ```bash
 git clone https://github.com/mateus0san/cowsay-flask-podman-httpd.git
 cd cowsay-flask-podman-httpd/
